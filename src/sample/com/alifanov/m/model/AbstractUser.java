@@ -5,7 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import sample.com.alifanov.m.service.AuthenticationService;
 
 @Getter
 @Setter
@@ -14,5 +13,4 @@ import sample.com.alifanov.m.service.AuthenticationService;
 public class AbstractUser {
     private String nickName;
     private String email;
-    private AuthenticationService authenticationService;
 }

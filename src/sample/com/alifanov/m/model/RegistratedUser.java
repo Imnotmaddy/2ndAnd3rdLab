@@ -1,12 +1,19 @@
 package sample.com.alifanov.m.model;
 
 public class RegistratedUser extends User {
-    public boolean login(){
-        return false;
+
+    private UserInformation userInformation;
+
+    public RegistratedUser() {
     }
 
-    public UserInformation getSelfInformation(){
-        return new UserInformation();
+    public RegistratedUser(UserInformation userInformation) {
+
+        this.userInformation = userInformation;
+    }
+
+    public boolean login(){
+        return false;
     }
 
 }

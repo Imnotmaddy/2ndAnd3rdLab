@@ -20,7 +20,7 @@ public class AlertBox {
         Label label = new Label(message);
 
         Button closeButton = new Button("I got it");
-        closeButton.setOnAction(pressed -> window.close());
+        closeButton.setOnAction(event -> window.close());
 
         VBox layout  = new VBox(10);
 
